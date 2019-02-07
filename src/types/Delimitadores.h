@@ -6,11 +6,9 @@
 
 class Delimitadores
 {
-private:
-  static const std::vector<std::string> delimitadores;
-
 public:
-  static bool IsDelimitador();
+  static const std::vector<std::string> delimitadores;
+  static bool IsDelimitador(const std::string &);
   static bool InicioFin();
 };
 

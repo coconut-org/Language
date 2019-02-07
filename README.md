@@ -44,4 +44,34 @@ Comentarios:
   //
   // a + (8 * (8+2 + ()))
   // a +(z * 8)
+
+  ----------------------
+
+
+// class Delimitador
+// {
+// public:
+// 	static bool esDelimitador(const std::string &l)
+// 	{
+// 	}
+// };
+
+// enum Type
+// {
+// 	FUNCTION = 1,
+// 	DELIMITADOR,
+// 	TEXT,
+// 	OPERANDO
+// };
+
+// std::vector<std::string> delimitadores = {"\"", "'"};
+// std::vector<std::string> operandos = {"/", "+", "-", "*"};
+// ./compiler.sh
+// ola puerk
+/*
+id:Print
+PARAMI:"
+Txt:kjhhfdjkghjk
+PARAMF:"
+*/
 ```

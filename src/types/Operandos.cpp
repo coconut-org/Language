@@ -2,7 +2,7 @@
 
 #include <algorithm>
 
-const std::vector<std::string> Operandos::operandos = {"/", "+", "-", "*"};
+const std::vector<std::string> Operandos::operandos = {"/", "+", "-", "*", "="};
 
 bool Operandos::IsOperando(const std::string &e)
 {

@@ -6,11 +6,9 @@
 
 class Funciones
 {
-private:
-  static const std::vector<std::string> funciones;
-
 public:
-  static bool IsFuncion();
+  static const std::vector<std::string> funciones;
+  static bool IsFuncion(const std::string &);
   static std::string tree();
 };
 
