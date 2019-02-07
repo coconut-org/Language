@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Executable's name
+OUTPUT="Coconut.exe"
+
+# Get all cpp files
+CPPFILES=$(find . -type f -name "*.cpp" 2>&1)
+
+# Compile
+printf "Compiling...\n\n"
+g++ -Wall -o ${OUTPUT} ${CPPFILES}
+
+# Delimiter
+IFS=' '
+# Split the string by the delimiter
+read -ra ADDR <<< "$CPPFILES"
+
+echo "List of .cpp files included at compilation"
+echo "$CPPFILES"
+
+# Execute
+printf "\nExecuting\n"
+./${OUTPUT}
